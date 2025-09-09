@@ -66,5 +66,68 @@
         </tr>
     </table>
 
+    <hr>
+
+    <h2>Pomoc dla niewidomych</h2>
+
+    <label for="wiek">
+        <p>[Kliknij aby, zaznaczyc pole wiek]</p>
+    </label>
+
+
+    <hr>
+
+    <h2>Formularz</h2>
+
+    <form action="./plik.php" method="post">
+        <h2>Oddaj swojego kota xd</h2>
+
+        <label for="imie">
+            <p>Imie Kota</p>
+            <input type="text" name="imie" id="imie">
+        </label>
+
+        <label for="wiek">
+            <p>Wiek Kota</p>
+            <input type="number" name="wiek" id="wiek">
+        </label>
+
+        <label for="plec">
+            <p>Płeć Kota</p>
+            <select name="plec">
+                <option value="kotka">Kotka</option>
+                <option value="kot">Kot</option>
+            </select>
+        </label>
+
+        <label for="numer">
+            <p>Numer telefonu</p>
+            <input type="number" name="numer" id="numer">
+        </label>
+
+        <label for="email">
+            <p>Email</p>
+            <input type="email" name="email" id="email">
+        </label>
+
+        <label for="syberyjski">
+            <p>Rasa: syberyjski</p>
+            <input type="radio" name="syberyjski" id="syberyjski">
+        </label>
+
+        <label for="dachowiec">
+            <p>Rasa: dachowiec</p>
+            <input type="radio" name="dachowiec" id="dachowiec">
+        </label>
+
+        <label for="brytyjczyk">
+            <p>Rasa: brytyjczyk</p>
+            <input type="radio" name="brytyjczyk" id="brytyjczyk">
+        </label>
+
+        <button>Wyslij</button>
+
+    </form>
+
 </body>
 </html>
